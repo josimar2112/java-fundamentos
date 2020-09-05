@@ -1,4 +1,4 @@
-package src.src.br.com.fundamentos;
+package src.br.com.fundamentos;
 
 public class Escape {
 	public static void main(String[] args) {
