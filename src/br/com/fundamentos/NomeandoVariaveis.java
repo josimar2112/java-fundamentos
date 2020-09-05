@@ -17,6 +17,12 @@ public class NomeandoVariaveis {
 		int $outroNumero = 1;
 		System.out.println($outroNumero);
 		
+		/* nao pode iniciar com caracteres especiais
+		 * string 1un;
+		 * string %un;
+		 * String &un;
+		 * 
+		 */
 	}
 
 }
