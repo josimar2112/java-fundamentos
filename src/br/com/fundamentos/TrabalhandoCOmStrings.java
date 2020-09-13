@@ -55,7 +55,50 @@ public class TrabalhandoCOmStrings {
 
 		for (String s : valorComSplit) {
 			System.out.println(s);
-
 		}
+
+		String usandoSplitELimit = "fundamento - java - software - engenharia - computação ";
+		String[] valorComSplitComLimit = usandoSplitELimit.split("-", 2);
+
+		for (String s : valorComSplitComLimit) {
+			System.out.println(s);
+		}
+
+		System.out.println(valor.subSequence(0, 5));
+		System.out.println(valor.substring(0, 5));
+
+		System.out.println();
+
+		String maiusculoEMinusculo = " Treinamento em Java - trabalhando Com Classe string";
+		System.out.println(maiusculoEMinusculo.toLowerCase());
+		System.out.println(maiusculoEMinusculo.toUpperCase());
+		System.out.println(maiusculoEMinusculo.trim());
+
+		System.out.println();
+
+		boolean myBoolean = true;
+		System.out.println(String.valueOf(myBoolean));
+
+		System.out.println();
+
+		float myFloat = -10;
+		System.out.println(String.valueOf(myFloat));
+
+		System.out.println();
+
+		int myInt = 9;
+		System.out.println(String.valueOf(myInt));
+
+		System.out.println();
+
+		double myDouble = 10.30;
+		System.out.println(String.valueOf(myDouble));
+
+		String result = String.format(" Hoje nos processamos %,d transações ", 100000);
+		System.out.println(result);
+
+		result = String.format(" 10 / 3 = %2f", 10.0 / 3.0);
+		System.out.println(result);
+
 	}
 }
