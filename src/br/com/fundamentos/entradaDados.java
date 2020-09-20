@@ -27,7 +27,8 @@ public class entradaDados {
 				System.out.println("Peso Ideal");
 			}else if ((sexo == 'F' && imc <= 27.3 ) ||(sexo == 'M' && imc < 27.8 )) {
 				System.out.println("Um pouco acima do Peso");
-			}
+			}else 
+				System.out.println("Obesidade");
 entrada.close();
 	}
 
