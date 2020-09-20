@@ -14,11 +14,11 @@ public class TestaWhile {
 		System.out.println("Valor final do Contador " + contador);
 
 		System.out.println("Decrescente ");
-		int incremento = 10;
+		int decrescente = 10;
 
-		while (incremento >= 0) {
-			System.out.println("Contador = " + incremento);
-			incremento--;
+		while (decrescente >= 0) {
+			System.out.println("Contador = " + decrescente);
+			decrescente--;
 
 		}
 	}
