@@ -29,7 +29,7 @@ public class entradaDados {
 				System.out.println("Um pouco acima do Peso");
 			}else 
 				System.out.println("Obesidade");
-entrada.close();
+		entrada.close();
 	}
 
 }
